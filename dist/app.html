@@ -6,8 +6,38 @@
     <title>login</title>
 </head>
 <body>
-   <div class="elm">22</div>
+<div class="container right-panel-active">
+    <div class="container_form container--signup">
+        <form action="#" class="form" id="form1"  method="post" >
+            <h2 class="form_title">注册账号</h2>
+            <input type="text" placeholder="User" class="input">
+            <input type="email" placeholder="Email" class="input">
+            <input type="password" placeholder="Passward" class="input">
+             <button class="btn"  >点击注册</button>
+        </form>
+    </div>
+    <div class="container_form container--signin">
+        <form action="#" class="form" id="form2">
+            <h2 class="form_title">欢迎登录</h2>
+            <input type="text" placeholder="User" class="input">
+            <input type="password" placeholder="Passward" class="input">
+            <a href="#" class="link">忘记密码？</a>
+            <button class="btn">点击登录</button>
+        </form>
+    </div>
+    <div class="container_overlay">
+        <div class="overlay">
+            <div class="overlay_panel overlay_left">
+               <button class="btn" id="signin">已有账号，直接登陆</button>
+            </div>
 
+            <div class="overlay_panel overlay_right">
+                <button class="btn" id="signup">没有账号，点击注册</button>
+            </div>
+        </div>
+    </div>
+</div>
 <script defer src="bundle.js"></script></body>
+
 
 </html>

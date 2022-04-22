@@ -1,6 +1,4 @@
 import './root.css'
-import './style.less'
-
 
 const signinBtn = document.getElementById('signin')
 const signupBtn = document.getElementById('signup')
@@ -15,6 +13,8 @@ signupBtn.addEventListener('click',()=>{
     container.classList.add('right-panel-active')
 })
 
-fistForm.addEventListener('submit',(e)=> e.preventDefault())
+fistForm.addEventListener('submit',(e)=> {
+    e.preventDefault()
+})
 secondForm.addEventListener('submit',(e)=>e.preventDefault())
-secondForm.addEventListener('click',()=>{})
+
